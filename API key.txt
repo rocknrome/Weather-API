@@ -1,0 +1,5 @@
+66d2442220be4bc7b5600857232806
+
+weatherapi.com
+
+const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=London`;

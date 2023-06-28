@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="weather-container">
+    <div class="weather-wrap">
+      <div class="search-box">
+        <input id="textInput" class="search-bar" type="text" placeholder="Enter city here" />
+        <br>
+        <button id="submitButton">Click here</button>
+      </div>
+      <h1 id="cityName"></h1>
+      <h2 id="temp"></h2>
+      <div id="weatherText"></div> <!-- Added HTML snippet -->
+      <div id="weatherImage"></div>
+      <div id="errorText"></div> <!-- Added HTML snippet -->
+    </div>
+  </div>
+  <br>
+  <footer class="footer">Created by Roman Larionov, June 27, 2023
+    <p><a href="mailto:rocknrome21@gmail.com">info@romanlab.dev</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="./script.js"></script>
+</body>
+</html>
