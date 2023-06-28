@@ -20,7 +20,7 @@
 }
 
 .weather-wrap {
-  height: 600px;
+  height: 400px;
   padding: 25px;
   border-radius: 25px;
   background-image: linear-gradient(to bottom, #E2FCDF, #008080);
